@@ -2,67 +2,95 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "list_pagination_and_filtering",
-            "description": "",
+            "project_name": "random_quote_generator",
+            "description": "App that displays random famous quotes each time a button is clicked or automatically updates at regular intervals and changing the background color to a random color.",
             "technologies": [
-                "", "", ""
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "live_link": "",
-            "github_link": "",
+            "live_link": "https://mikeliamrandomquotes.netlify.app/",
+            "github_link": "https://github.com/MikeLiam/random_quote_generator",
             "image_urls": [
-                "", "", "", ""
+                "/static/images/random_quote_main.png",
+                "/static/images/random_quote_landscape_01.png",
+                "/static/images/random_quote_landscape_02.png",
+                "/static/images/random_quote_landscape_03.png"
             ]
         },
         {
             "id": 1,
-            "project_name": "random_quote_generator",
-            "description": "",
+            "project_name": "list_pagination_and_filtering",
+            "description": "A list pagination and firltering web page throw 'rogressive enhancement'. Given a list of students, it's paginated by 10 students for page. Added a search bar with keyup or click funcionality that show students whose name includes the word(s) from user input and paginated too. It is shown a message if no results found.",
             "technologies": [
-                "", "", ""
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "live_link": "",
+            "live_link": "https://mikeliampaginationfilter.netlify.app/",
             "github_link": "",
             "image_urls": [
-                "", "", "", ""
+                "/static/images/pagination_filtering_main.png",
+                "/static/images/pagination_filtering_landscape_01.png",
+                "/static/images/pagination_filtering_landscape_02.png",
+                "/static/images/pagination_filtering_landscape_03.png"
             ]
         },
         {
             "id": 2,
             "project_name": "interactive_form",
-            "description": "",
+            "description": "Enhance an interactive registration form for a fictional conference called 'FullStack Conf' using JavaScript to make the form more user-friendly by adding customized and conditional behavior and interactivity and validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
             "technologies": [
-                "", "", ""
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "live_link": "",
-            "github_link": "",
+            "live_link": "https://mikeliaminteractiveform.netlify.app/",
+            "github_link": "https://github.com/MikeLiam/interactive-form",
             "image_urls": [
-                "", "", "", ""
+                "/static/images/interactive_form_main.png",
+                "/static/images/interactive_form_landscape_01.png",
+                "/static/images/interactive_form_landscape_02.png",
+                "/static/images/interactive_form_landscape_03.png",
+                "/static/images/interactive_form_landscape_04.png"
             ]
         },
         {
             "id": 3,
             "project_name": "oop_game",
-            "description": "",
+            "description": "'Phrase Hunter' game where the player tries to guess a random, hidden phrase by clicking or pressing keys of represented letters on an onscreen keyboard. Wins if manages to complete the phrase before getting out of attempts doing five incorrect guesses (letters that aren't included in the phrase).",
             "technologies": [
-                "", "", ""
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "live_link": "",
-            "github_link": "",
+            "live_link": "https://mikeliamphrasehuntergame.netlify.app/",
+            "github_link": "https://github.com/MikeLiam/oop_game",
             "image_urls": [
-                "", "", "", ""
+                "/static/images/oop_game_main.png",
+                "/static/images/oop_game_landscape_01.png",
+                "/static/images/oop_game_landscape_02.png",
+                "/static/images/oop_game_landscape_03.png",
+                "/static/images/oop_game_landscape_04.png"
             ]
         },
         {
             "id": 4,
             "project_name": "public_api_request",
-            "description": "",
+            "description": "Directory of emplloyees where find personal info to improve comunication between employees",
             "technologies": [
-                "", "", ""
+                "HTML",
+                "CSS",
+                "JavaScript"
             ],
-            "live_link": "",
-            "github_link": "",
+            "live_link": "https://asemployeedirectory.netlify.app/",
+            "github_link": "https://github.com/MikeLiam/public_api_request",
             "image_urls": [
-                "", "", "", ""
+                "/static/images/public_api_request_main.png",
+                "/static/images/public_api_request_landscape_01.png",
+                "/static/images/public_api_request_landscape_02.png",
+                "/static/images/public_api_request_landscape_03.png",
+                "/static/images/public_api_request_landscape_04.png"
             ]
         }
     ]
