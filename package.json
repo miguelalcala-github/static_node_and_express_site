@@ -1,0 +1,19 @@
+{
+  "name": "static_node_and_express_site-v1",
+  "version": "1.0.0",
+  "description": "treehouse techdegree project unit06",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikeLiam/static_node_and_express_site.git"
+  },
+  "author": "MikelIam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikeLiam/static_node_and_express_site/issues"
+  },
+  "homepage": "https://github.com/MikeLiam/static_node_and_express_site#readme"
+}
