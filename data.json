@@ -1,0 +1,69 @@
+{
+    "projects": [
+        {
+            "id": 0,
+            "project_name": "list_pagination_and_filtering",
+            "description": "",
+            "technologies": [
+                "", "", ""
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "", "", "", ""
+            ]
+        },
+        {
+            "id": 1,
+            "project_name": "random_quote_generator",
+            "description": "",
+            "technologies": [
+                "", "", ""
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "", "", "", ""
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "interactive_form",
+            "description": "",
+            "technologies": [
+                "", "", ""
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "", "", "", ""
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "oop_game",
+            "description": "",
+            "technologies": [
+                "", "", ""
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "", "", "", ""
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "public_api_request",
+            "description": "",
+            "technologies": [
+                "", "", ""
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "", "", "", ""
+            ]
+        }
+    ]
+}
