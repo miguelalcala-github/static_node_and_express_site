@@ -1,5 +1,6 @@
 const http = require('http');
 
+// Helper function to create errors
 const createErrorHelper = (status, message) => {
     const error = new Error('err');
     error.status = status;
@@ -7,15 +8,11 @@ const createErrorHelper = (status, message) => {
     return error;
 };
 
-// handling non-existent routes
+// Handling non-existent routes
 const handleNotFound = ((req, res, next) => { 
-    // Create new error to handle non-existent routes
-    const err = new Error('err');
-    err.status = 404;
-    err.message = 'Oops, the page that you are looking for does not exist';
-  
-    // Pass error to error handler
-    next(err);
+    // Create and pass to error handler a new error to non-existent routes
+    next(createErrorHelper(404, 
+        'Oops, the page that you are looking for does not exist'));
   });
 
 // Handling global errors
@@ -27,6 +24,7 @@ const handleError = ((err, req, res, next) => {
     res.status(err.status || 500);
     // Getting meaning of status code error
     const httpStatusCode = http.STATUS_CODES[res.statusCode];
+    // Friendly error to log
     console.error(res.statusCode === 404 ? "Pointed at a URL that doesn't exist as a route in the app" : `${httpStatusCode}`);
 
     res.render('error', {error, message, httpStatusCode});

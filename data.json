@@ -2,7 +2,7 @@
     "projects": [
         {
             "id": 0,
-            "project_name": "random_quote_generator",
+            "project_name": "Random Quote Generator",
             "description": "App that displays random famous quotes each time a button is clicked or automatically updates at regular intervals and changing the background color to a random color.",
             "technologies": [
                 "HTML",
@@ -20,7 +20,7 @@
         },
         {
             "id": 1,
-            "project_name": "list_pagination_and_filtering",
+            "project_name": "List Pagination and Filtering",
             "description": "A list pagination and firltering web page throw 'rogressive enhancement'. Given a list of students, it's paginated by 10 students for page. Added a search bar with keyup or click funcionality that show students whose name includes the word(s) from user input and paginated too. It is shown a message if no results found.",
             "technologies": [
                 "HTML",
@@ -28,7 +28,7 @@
                 "JavaScript"
             ],
             "live_link": "https://mikeliampaginationfilter.netlify.app/",
-            "github_link": "",
+            "github_link": "https://github.com/MikeLiam/list_pagination_and_filtering",
             "image_urls": [
                 "/static/images/pagination_filtering_main.png",
                 "/static/images/pagination_filtering_landscape_01.png",
@@ -38,7 +38,7 @@
         },
         {
             "id": 2,
-            "project_name": "interactive_form",
+            "project_name": "Interactive Form",
             "description": "Enhance an interactive registration form for a fictional conference called 'FullStack Conf' using JavaScript to make the form more user-friendly by adding customized and conditional behavior and interactivity and validating user input and providing helpful error messages when the user enters invalid information into the form fields.",
             "technologies": [
                 "HTML",
@@ -57,7 +57,7 @@
         },
         {
             "id": 3,
-            "project_name": "oop_game",
+            "project_name": "OOP Game - Phrase Hunter",
             "description": "'Phrase Hunter' game where the player tries to guess a random, hidden phrase by clicking or pressing keys of represented letters on an onscreen keyboard. Wins if manages to complete the phrase before getting out of attempts doing five incorrect guesses (letters that aren't included in the phrase).",
             "technologies": [
                 "HTML",
@@ -76,7 +76,7 @@
         },
         {
             "id": 4,
-            "project_name": "public_api_request",
+            "project_name": "Public Api Request",
             "description": "Directory of emplloyees where find personal info to improve comunication between employees",
             "technologies": [
                 "HTML",
