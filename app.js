@@ -15,7 +15,7 @@ app.use('/projects', projectRoutes);
 app.use(errorHandlers.handleNotFound);
 app.use(errorHandlers.handleError);
 
-
-app.listen(4000, () => {
-    console.log('The application is running on localhost:4000');
-});
+module.exports = app;
+// app.listen(4000, () => {
+//     console.log('The application is running on localhost:4000');
+// });
