@@ -5,11 +5,11 @@ block content
     a(href='/') ← Back
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
-      .cell.small-6.medium-9.large-9
-        h1 Miguel Angel Alcala Romero
+      .cell.small-6.medium-9.large-9.portfolio-content
+        h1 Miguel
 
         //- Feel free personalize the title below
-        p.lead.text-light
+        p.lead
           | Full Stack JavaScript Developer.
 
         //- Replace the boilerplate below with your Elevator pitch below.
@@ -18,30 +18,32 @@ block content
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position. 
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
             | This is my elevator pitch. It is the elevator pitch to end all elevator pitches. Your mind is blown. Your mortal brain can scarcely process how well my prior experience maps to your open dev position.
+        .portfolio-logo
+          img.logo(src='/static/images/logo_about.png')
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Skills
+        .sidebarlist
+          h6 Skills
+            ul
+              li HTML5
+              li CSS
+              li JavaScript
+              li Node.js
+              li Express
+              li Vue.js
+              li Nuxt.js
+              li GraphQl
+              li MongoDB
+              li Bootstrap
+          h6 Contact Info
 
-        ul
-          li HTML5
-          li CSS
-          li JavaScript
-          li Node.js
-          li Express
-          li Vue.js
-          li Nuxt.js
-          li GraphQl
-          li MongoDB
-          li Bootstrap
-        h6 Contact Info
+            //- Add your own contact info
+            ul
+              li 555-555-1234
+              li miguel@gmail.com
 
-        //- Add your own contact info
-        ul
-          li 555-555-1234
-          li email@email.com
-
-        a.button.expanded(href='https://www.linkedin.com/in/mikeliam' target='_blank') LinkedIn
-        a.button.expanded(href='https://github.com/MikeLiam' target='_blank') GitHub
-        a.button.expanded(href='https://twitter.com/miguel_mikeliam' target='_blank') Twitter
+          a.button.expanded(href='https://www.linkedin.com/in/mikeliam' target='_blank') LinkedIn
+          a.button.expanded(href='https://github.com/MikeLiam' target='_blank') GitHub
+          a.button.expanded(href='https://twitter.com/miguel_mikeliam' target='_blank') Twitter
   nav.grid-container.portfolio-breadcrumb
     a(href='/') ← Back
   

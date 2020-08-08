@@ -4,11 +4,12 @@ html(class="no-js" lang="en" dir="ltr")
     meta(charset='utf-8')
     meta(http-equiv='x-ua-compatible', content='ie=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    title Portfolio Site
-    link(href='https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800', rel='stylesheet')
+    title MikelIam | FS Developer
+    link(href='https://fonts.googleapis.com/css?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap', rel='stylesheet')
+    link(href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap", rel="stylesheet")
     link(rel='stylesheet', href='/static/css/foundation.css')
     link(rel='stylesheet', href='/static/css/style.css')
-    <link rel="shortcut icon" href="" type="image/x-icon">
+    link(rel='shortcut icon', href='/static/images/logo.png', type='image/x-icon')
   body
     #my-info.off-canvas.position-left.reveal-for-large.portfolio-me(data-off-canvas='')
       .grid-y.grid-padding-x(style='height: 100%;')
@@ -24,7 +25,7 @@ html(class="no-js" lang="en" dir="ltr")
             p.text-light
               | Description
 
-            a(href='/about') Learn More →
+            a(href='/about') Learn More
 
     .off-canvas-content(data-off-canvas-content='')
       .title-bar.hide-for-large
@@ -34,6 +35,8 @@ html(class="no-js" lang="en" dir="ltr")
           //- for the mobile screen sized version.
           span.title-bar-title Miguel 
       block content
+    .license
+      a(href="https://www.freepik.es/vectores/fondo") Vector de Fondo creado por rawpixel.com - www.freepik.es
         
 
       

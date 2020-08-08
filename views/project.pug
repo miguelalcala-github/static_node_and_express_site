@@ -6,20 +6,22 @@ block content
   article.grid-container.portfolio-intro.portfolio-project
     .grid-x
       .cell.small-6.medium-9.large-9
+        .portfolio-content
 
-        h1= project.project_name
+          h1= project.project_name
 
-        p.lead.text-light= `${project.description}`
+          p.lead= `${project.description}`
 
       .cell.portfolio-meta.small-6.medium-2.large-3
-        h6 Technologies
+        .sidebarlist
+          h6 Technologies
 
-        ul
-          each tech in project.technologies
-            li= tech
+          ul
+            each tech in project.technologies
+              li= tech
 
-        a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
-        a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
+          a.button.expanded(href=`${project.live_link}` target='_blank') Live Demo
+          a.button.expanded(href=`${project.github_link}` target='_blank') GitHub Repo
     
     each image, index in project.image_urls
       //- not printing first image corresponding to main image for index page
