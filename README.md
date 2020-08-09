@@ -1,6 +1,5 @@
 # Static Node.js and express site Portfolio
----
----
+
 ## Sixth Treehouse techdegree project. Unit-06
 ---
 Web projects _showcase_ and author's _presentation_ where find the info needed to understand each project and author's motivation.
