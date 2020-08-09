@@ -1,7 +1,8 @@
 const express = require('express');
 const router = express.Router();
-
+// Error helper to create errors
 const helper = require('../errorHandlers');
+// Projects data
 const {projects} = require('../data.json');
 
 // Getting route for a given id project
