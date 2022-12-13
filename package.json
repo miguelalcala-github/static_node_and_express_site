@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/MikeLiam/static_node_and_express_site#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pug": "^3.0.0"
   },
   "engines": {
